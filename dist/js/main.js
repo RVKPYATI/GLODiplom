@@ -1,0 +1,1 @@
+(()=>{"use strict";const o=()=>{console.log("Work!!!"),document.querySelectorAll(".callback-btn");const l=document.querySelector(".modal-overlay"),e=o.querySelector(".modal-callback");console.log(l),console.log(e)};o()})();
