@@ -711,6 +711,10 @@ hr.white {
 	display: block;
 	margin-bottom: 10px;
 }
+.quest-section .callback-btn{
+	display: inline-block;
+	float: none;
+}
 
 /**************************************************   MEDIA QUERIS   *****************************************************/
 
@@ -759,6 +763,7 @@ hr.white {
 	.portfolio figure {
 		width: 50%;
 	}
+
 	.quest-section span {
 		vertical-align: top;
 		margin-right: 30px;
