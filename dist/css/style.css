@@ -1233,3 +1233,6 @@ video#video_background {
 	}
 }
 /**** /. services section *****/
+.swiper-pagination-bullet {
+	background-color: #FFFFFF !important;
+}
