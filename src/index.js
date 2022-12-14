@@ -3,7 +3,9 @@ import { scrollBy } from './modules/scroll';
 import { sliders } from './modules/sliders';
 import { accordeon } from './modules/accordeon';
 
-modal();
+
+modal('.callback-btn');
+modal('.services-modal');
 scrollBy();
 sliders();
 accordeon();

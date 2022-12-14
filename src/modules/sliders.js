@@ -11,4 +11,12 @@ export const sliders = () => {
             delay: 3000,
         },
     })
+    const courousel = new Swiper(".services-elements", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: ".arrow-right",
+            prevEl: ".arrow-left",
+          },
+    })
 };

@@ -1,8 +1,8 @@
 import { animate } from './helpers';
 
-export const modal = () => {
+export const modal = (selector) => {
 
-    const buttons = document.querySelectorAll('.callback-btn');
+    const buttons = document.querySelectorAll(selector);
     const modalOverlay = document.querySelector('.modal-overlay');
     const modalCallback = document.querySelector('.modal-callback');
 
